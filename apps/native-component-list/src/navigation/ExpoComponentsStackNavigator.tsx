@@ -54,18 +54,18 @@ export const Screens: ScreenConfig[] = [
     },
     name: 'Camera',
   },
-  {
-    getComponent() {
-      return optionalRequire(() => require('../screens/Camera/CameraScreenBarcode'));
-    },
-    name: 'Camera (barcode)',
-  },
-  {
-    getComponent() {
-      return optionalRequire(() => require('../screens/Camera/CameraScreenBarcodeFromURL'));
-    },
-    name: 'Camera (barcode from URL)',
-  },
+  // {
+  //   getComponent() {
+  //     return optionalRequire(() => require('../screens/Camera/CameraScreenBarcode'));
+  //   },
+  //   name: 'Camera (barcode)',
+  // },
+  // {
+  //   getComponent() {
+  //     return optionalRequire(() => require('../screens/Camera/CameraScreenBarcodeFromURL'));
+  //   },
+  //   name: 'Camera (barcode from URL)',
+  // },
   {
     getComponent() {
       return optionalRequire(() => require('../screens/TextScreen'));
@@ -376,18 +376,18 @@ export const Screens: ScreenConfig[] = [
     },
     name: 'ExpoMaps',
   },
-  {
-    getComponent() {
-      return optionalRequire(() => require('../screens/Audio/AV/VideoScreen'));
-    },
-    name: 'Video (expo-av)',
-  },
-  {
-    getComponent() {
-      return optionalRequire(() => require('../screens/Video/VideoScreen'));
-    },
-    name: 'Video (expo-video)',
-  },
+  // {
+  //   getComponent() {
+  //     return optionalRequire(() => require('../screens/Audio/AV/VideoScreen'));
+  //   },
+  //   name: 'Video (expo-av)',
+  // },
+  // {
+  //   getComponent() {
+  //     return optionalRequire(() => require('../screens/Video/VideoScreen'));
+  //   },
+  //   name: 'Video (expo-video)',
+  // },
   {
     getComponent() {
       return optionalRequire(() => require('../screens/Screens'));

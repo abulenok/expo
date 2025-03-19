@@ -11,6 +11,7 @@ import * as React from 'react';
 import { Linking, Platform, StyleSheet, View, useColorScheme } from 'react-native';
 import url from 'url';
 
+
 import ApolloClient from './api/ApolloClient';
 import { ColorTheme } from './constants/Colors';
 import {
@@ -32,6 +33,13 @@ import { useAccountName } from './utils/AccountNameContext';
 import { useInitialData } from './utils/InitialDataContext';
 import * as UrlUtils from './utils/UrlUtils';
 import addListenerWithNativeCallback from './utils/addListenerWithNativeCallback';
+import {
+  Audio,
+  InterruptionModeAndroid,
+  InterruptionModeIOS,
+  ResizeMode,
+  Video
+} from "expo-av";
 
 // Download and cache stack assets, don't block loading on this though
 Asset.loadAsync(StackAssets);

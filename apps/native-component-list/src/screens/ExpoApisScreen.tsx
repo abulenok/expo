@@ -52,7 +52,6 @@ const screens = [
   'Geocoding',
   'Haptics',
   'ImageManipulator',
-  'ImageManipulator (legacy)',
   'ImagePicker',
   'IntentLauncher',
   'KeepAwake',

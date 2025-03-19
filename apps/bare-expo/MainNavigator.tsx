@@ -6,6 +6,8 @@ import { useTheme } from 'ThemeProvider';
 import * as Linking from 'expo-linking';
 import React from 'react';
 import { ToastAndroid, Platform } from 'react-native';
+import { RNMenuTestApp } from 'screens/RNMenuTest';
+import { RNiOSContextMenu } from 'screens/RNiOSContextMenu';
 import TestSuite from 'test-suite/AppNavigator';
 
 type NavigationRouteConfigMap = React.ReactElement;
@@ -32,7 +34,8 @@ export function optionalRequire(requirer: () => { default: React.ComponentType }
 }
 
 const routes: RoutesConfig = {
-  'test-suite': TestSuite,
+  'test-suite': RNMenuTestApp,
+  'context-menu': RNiOSContextMenu,
 };
 
 // We'd like to get rid of `native-component-list` being a part of the final bundle.

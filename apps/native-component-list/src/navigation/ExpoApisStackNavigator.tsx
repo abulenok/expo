@@ -208,12 +208,12 @@ export const Screens: ScreenConfig[] = [
     },
     name: 'ImageManipulator',
   },
-  {
-    getComponent() {
-      return optionalRequire(() => require('../screens/ImageManipulatorScreenLegacy'));
-    },
-    name: 'ImageManipulator (legacy)',
-  },
+  // {
+  //   getComponent() {
+  //     return optionalRequire(() => require('../screens/ImageManipulatorScreenLegacy'));
+  //   },
+  //   name: 'ImageManipulator (legacy)',
+  // },
   {
     getComponent() {
       return optionalRequire(() => require('../screens/ImagePicker/ImagePickerScreen'));
