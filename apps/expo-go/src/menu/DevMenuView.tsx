@@ -12,6 +12,7 @@ import * as DevMenu from './DevMenuModule';
 import { DevMenuOnboarding } from './DevMenuOnboarding';
 import { DevMenuServerInfo } from './DevMenuServerInfo';
 import { DevMenuTaskInfo } from './DevMenuTaskInfo';
+import UpdateAppComponent from '../VibeCode/components/UpdateAppComponent';
 
 type Props = {
   task: { manifestUrl: string; manifestString: string };
@@ -176,6 +177,14 @@ export function DevMenuView({ uuid, task }: Props) {
                 />
               </View>
             </View>
+
+            {/* App Update Section */}
+            <View padding="medium" style={{ paddingTop: 0 }}>
+              <View bg="default" rounded="large" padding="medium">
+                <UpdateAppComponent onSuccess={onAppReload} />
+              </View>
+            </View>
+
             {enableDevMenuTools && devMenuItems && (
               <View padding="medium" style={{ paddingTop: 0 }}>
                 <View bg="default" rounded="large">
