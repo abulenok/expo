@@ -185,7 +185,8 @@ export function DevMenuView({ uuid, task }: Props) {
               </View>
             </View>
 
-            {enableDevMenuTools && devMenuItems && (
+            {/* ****************** TODO: Figure out if we need this stuff *********************** */}
+            {/* {enableDevMenuTools && devMenuItems && (
               <View padding="medium" style={{ paddingTop: 0 }}>
                 <View bg="default" rounded="large">
                   {sortedDevMenuItems.map((key, i) => {
@@ -207,7 +208,7 @@ export function DevMenuView({ uuid, task }: Props) {
                   })}
                 </View>
               </View>
-            )}
+            )} */}
           </View>
         )}
       </View>
