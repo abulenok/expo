@@ -37,6 +37,9 @@
         "projectId": "e3ec11de-308d-48c3-9f4c-c07d90733495"
       }
     },
-    "runtimeVersion": "52.0.0"
+    "runtimeVersion": "52.0.0",
+    "plugins": [
+      "react-native-vision-camera"
+    ]
   }
 }

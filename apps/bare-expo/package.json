@@ -72,6 +72,7 @@
     "react-native-screens": "~4.5.0",
     "react-native-svg": "15.11.1",
     "react-native-view-shot": "4.0.2",
+    "react-native-vision-camera": "^4.6.4",
     "react-native-webview": "13.13.0",
     "test-suite": "*"
   },

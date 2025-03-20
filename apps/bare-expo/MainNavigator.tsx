@@ -7,6 +7,7 @@ import * as Linking from 'expo-linking';
 import React from 'react';
 import { ToastAndroid, Platform } from 'react-native';
 import { RNMenuTestApp } from 'screens/RNMenuTest';
+import { RNVisionCamera } from 'screens/RNVisionCamera';
 import { RNiOSContextMenu } from 'screens/RNiOSContextMenu';
 import TestSuite from 'test-suite/AppNavigator';
 
@@ -36,6 +37,7 @@ export function optionalRequire(requirer: () => { default: React.ComponentType }
 const routes: RoutesConfig = {
   'test-suite': RNMenuTestApp,
   'context-menu': RNiOSContextMenu,
+  'vision-camera' : RNVisionCamera,
 };
 
 // We'd like to get rid of `native-component-list` being a part of the final bundle.

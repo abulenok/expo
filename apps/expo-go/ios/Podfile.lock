@@ -2390,7 +2390,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNGestureHandler (2.20.2):
+  - RNGestureHandler (2.22.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2498,7 +2498,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNScreens (4.4.0):
+  - RNScreens (4.5.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2519,9 +2519,9 @@ PODS:
     - ReactCodegen
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
-    - RNScreens/common (= 4.4.0)
+    - RNScreens/common (= 4.5.0)
     - Yoga
-  - RNScreens/common (4.4.0):
+  - RNScreens/common (4.5.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -2635,6 +2635,12 @@ PODS:
   - StripeUICore (23.28.3):
     - StripeCore (= 23.28.3)
   - UMAppLoader (5.0.1)
+  - VisionCamera (4.6.4):
+    - VisionCamera/Core (= 4.6.4)
+    - VisionCamera/React (= 4.6.4)
+  - VisionCamera/Core (4.6.4)
+  - VisionCamera/React (4.6.4):
+    - React-Core
   - Yoga (0.0.0)
   - ZXingObjC/Core (3.6.9)
   - ZXingObjC/OneD (3.6.9):
@@ -2817,11 +2823,12 @@ DEPENDENCIES:
   - "RNFlashList (from `../../../node_modules/@shopify/flash-list`)"
   - RNGestureHandler (from `../../../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../../../node_modules/react-native-reanimated`)
-  - RNScreens (from `../node_modules/react-native-screens`)
+  - RNScreens (from `../../../node_modules/react-native-screens`)
   - RNSVG (from `../../../node_modules/react-native-svg`)
   - SocketRocket
   - "stripe-react-native (from `../../../node_modules/@stripe/stripe-react-native`)"
   - UMAppLoader (from `../../../packages/unimodules-app-loader/ios`)
+  - VisionCamera (from `../../../node_modules/react-native-vision-camera`)
   - Yoga (from `../../../react-native-lab/react-native/packages/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -3173,13 +3180,15 @@ EXTERNAL SOURCES:
   RNReanimated:
     :path: "../../../node_modules/react-native-reanimated"
   RNScreens:
-    :path: "../node_modules/react-native-screens"
+    :path: "../../../node_modules/react-native-screens"
   RNSVG:
     :path: "../../../node_modules/react-native-svg"
   stripe-react-native:
     :path: "../../../node_modules/@stripe/stripe-react-native"
   UMAppLoader:
     :path: "../../../packages/unimodules-app-loader/ios"
+  VisionCamera:
+    :path: "../../../node_modules/react-native-vision-camera"
   Yoga:
     :path: "../../../react-native-lab/react-native/packages/react-native/ReactCommon/yoga"
 
@@ -3365,9 +3374,9 @@ SPEC CHECKSUMS:
   RNCPicker: b978067931744f5a7316b48b8dcf145d4d722672
   RNDateTimePicker: 6008d74df8122d6af6d9d08096bff19a8c6ba647
   RNFlashList: 2ad2738637fa763b87b763578feab47d3e67c4c1
-  RNGestureHandler: fc5ce5bf284640d3af6431c3a5c3bc121e98d045
+  RNGestureHandler: 8ce7a079c513f96f9b580bcb2ecee621d511361f
   RNReanimated: 5bc01f4a152370c333d50eef11a4169f7db81a91
-  RNScreens: d022507f2b6d76c73335e9e35aedcf7bb2f791b0
+  RNScreens: b02af14099030cc1e63f74f2791574e909fc1541
   RNSVG: ea3e35f0375ac20449384fa89ce056ee0e0690ee
   SDWebImage: 8a6b7b160b4d710e2a22b6900e25301075c34cb3
   SDWebImageAVIFCoder: 00310d246aab3232ce77f1d8f0076f8c4b021d90
@@ -3384,6 +3393,7 @@ SPEC CHECKSUMS:
   StripePaymentsUI: c24f990b03a68a7f6fe704b15dd487e7bb6b603e
   StripeUICore: f2d514e900c37436dc5427fdf2c29d68ab1c2935
   UMAppLoader: 7e7e0eaa7854ffd652c00a68c443afb28c3bedba
+  VisionCamera: b5c2b3c45e641102902a5194af11dc532805221e
   Yoga: 90d80701b27946c4b23461c00a7207f300a6ff71
   ZXingObjC: 8898711ab495761b2dbbdec76d90164a6d7e14c5
 

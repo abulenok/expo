@@ -39,6 +39,10 @@
   <uses-permission android:name="android.permission.RECORD_AUDIO" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+  <!-- Permissions for react-native-vision-camera -->
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
   <!-- END OPTIONAL PERMISSIONS -->
 
   <!-- ADD TEST PERMISSIONS HERE -->

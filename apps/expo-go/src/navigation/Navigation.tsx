@@ -25,6 +25,7 @@ import {
   alertWithCameraPermissionInstructions,
   requestCameraPermissionsAsync,
 } from '../utils/PermissionUtils';
+import GenerateAppScreen from 'src/VibeCode/screens/GenerateApp';
 
 // TODO(Bacon): Do we need to create a new one each time?
 const HomeStack = createStackNavigator<HomeStackRoutes>();
@@ -127,6 +128,16 @@ function TabNavigator(props: { theme: string }) {
       {...getNavigatorProps(props)}
       initialRouteName="HomeStack"
       detachInactiveScreens={shouldDetachInactiveScreens}>
+
+      <BottomTab.Screen
+        name="Generate App"
+        component={GenerateAppScreen}
+        options={{
+          tabBarIcon: ({ color }) => <HomeFilledIcon style={styles.icon} color={color} size={24} />,
+          tabBarLabel: 'Generate App',
+        }}
+      />
+
       <BottomTab.Screen
         name="HomeStack"
         component={HomeStackScreen}
