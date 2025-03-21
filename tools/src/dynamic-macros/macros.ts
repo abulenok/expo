@@ -204,9 +204,9 @@ export default {
     try {
       const manifestAndAssetRequestHeaders = await getManifestAsync(url, platform);
 
-      if (manifestAndAssetRequestHeaders.manifest.extra?.expoClient?.name !== 'expo-home') {
+      if (manifestAndAssetRequestHeaders.manifest.extra?.expoClient?.name !== 'vibecode') {
         console.log(
-          `Manifest at ${url} is not expo-home; using published kernel manifest instead...`
+          `Manifest at ${url} is not vibecode; using published kernel manifest instead...`
         );
         return '';
       }

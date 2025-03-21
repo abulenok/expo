@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Expo Go</string>
+	<string>VibeCode</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -71,7 +71,7 @@
 	<key>FacebookAutoLogAppEventsEnabled</key>
 	<false/>
 	<key>FacebookDisplayName</key>
-	<string>Expo Go</string>
+	<string>VibeCode</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-3940256099942544~1458002511</string>
 	<key>GADDelayAppMeasurementInit</key>
@@ -92,33 +92,33 @@
 		<true/>
 	</dict>
 	<key>NSCalendarsFullAccessUsageDescription</key>
-	<string>Allow Expo projects to access your calendar</string>
+	<string>Allow VibeCode to access your calendar</string>
 	<key>NSCalendarsUsageDescription</key>
-	<string>Allow Expo projects to access your calendar</string>
+	<string>Allow VibeCode to access your calendar</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Allow Expo Go to access your camera to take photos</string>
+	<string>Allow VibeCode to access your camera to take photos</string>
 	<key>NSContactsUsageDescription</key>
-	<string>Allow Expo projects to access your contacts</string>
+	<string>Allow VibeCode to access your contacts</string>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>Expo Go needs access to your local network to load projects from your development server</string>
+	<string>VibeCode needs access to your local network to load projects from your development server</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Allow Expo projects to use your location</string>
+	<string>Allow VibeCode to use your location</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Allow Expo projects to use your location</string>
+	<string>Allow VibeCode to use your location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>The app shows you the current location on a map and makes it available when you request it</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow Expo projects to access your microphone</string>
+	<string>Allow VibeCode to access your microphone</string>
 	<key>NSMotionUsageDescription</key>
-	<string>Allow Expo projects to access your device accelerometer</string>
+	<string>Allow VibeCode to access your device accelerometer</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Give Expo projects permission to save photos</string>
+	<string>Give VibeCode permission to save photos</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Give Expo projects permission to access your photos</string>
+	<string>Give VibeCode permission to access your photos</string>
 	<key>NSRemindersFullAccessUsageDescription</key>
-	<string>Allow Expo projects to access your reminders</string>
+	<string>Allow VibeCode to access your reminders</string>
 	<key>NSRemindersUsageDescription</key>
-	<string>Allow Expo projects to access your reminders</string>
+	<string>Allow VibeCode to access your reminders</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>This identifier will be used to deliver personalized ads to you</string>
 	<key>SKAdNetworkItems</key>
