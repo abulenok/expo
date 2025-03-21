@@ -181,7 +181,7 @@ export function DevMenuView({ uuid, task }: Props) {
             {/* App Update Section */}
             <View padding="medium" style={{ paddingTop: 0 }}>
               <View bg="default" rounded="large" padding="medium">
-                <UpdateAppComponent onSuccess={onAppReload} />
+                <UpdateAppComponent />
               </View>
             </View>
 
