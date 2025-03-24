@@ -11,7 +11,7 @@
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>host.exp.Exponent</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -56,10 +56,6 @@
 			</array>
 		</dict>
 	</array>
-  <key>NSBonjourServices</key>
-  <array>
-    <string>_preflight_check._tcp</string>
-  </array>
 	<key>CFBundleVersion</key>
 	<string>2.32.17</string>
 	<key>FacebookAdvertiserIDCollectionEnabled</key>
@@ -91,12 +87,16 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_preflight_check._tcp</string>
+	</array>
 	<key>NSCalendarsFullAccessUsageDescription</key>
 	<string>Allow VibeCode to access your calendar</string>
 	<key>NSCalendarsUsageDescription</key>
 	<string>Allow VibeCode to access your calendar</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Allow VibeCode to access your camera to take photos</string>
+	<string>$(PRODUCT_NAME) needs access to your Camera.</string>
 	<key>NSContactsUsageDescription</key>
 	<string>Allow VibeCode to access your contacts</string>
 	<key>NSLocalNetworkUsageDescription</key>
@@ -108,7 +108,7 @@
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>The app shows you the current location on a map and makes it available when you request it</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow VibeCode to access your microphone</string>
+	<string>$(PRODUCT_NAME) needs access to your Microphone.</string>
 	<key>NSMotionUsageDescription</key>
 	<string>Allow VibeCode to access your device accelerometer</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
@@ -161,11 +161,5 @@
 	<string>Automatic</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-
-	<!-- permissions for react-native-vision-camera -->
-	<key>NSCameraUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs access to your Camera.</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>$(PRODUCT_NAME) needs access to your Microphone.</string>
 </dict>
 </plist>
